@@ -1,0 +1,369 @@
+/* free course CSS STYLING............................. */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Tiro+Gurmukhi&family=Zilla+Slab:ital,wght@0,400;1,500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.over{
+    position: relative;
+}
+.over::after{
+    content: '';
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 240px;
+    width: 10px;
+    background-color: #000;
+    opacity: 0;
+    /* border-radius: 10px; */
+    transition: all 0.4s ease-in-out;
+}
+.over .clicked{
+    font-weight: bold;
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    font-size: 1.5rem;
+    padding: 0.5rem 0.8rem;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 1rem;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+.over:hover::after{
+    opacity: 0.8;
+    width: 320px;
+
+}
+.over:hover .clicked{
+    opacity: 1;
+    left: 47%;
+}
+
+
+.section .learn{
+    padding: 1rem;
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+}
+.section .small{
+    padding: 0rem 3rem;
+    font-weight: 500;
+    text-align: center;
+}
+.section .free{
+    color: #570861;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    
+}
+.section .small-sub{
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+}
+.next{
+    color:#570861;
+}
+.container1 .img1{
+    display: inline-block;
+    width: 320px;
+    height: 240px;
+    margin-top: 1rem;
+    border: 2px solid black;
+}
+.container1 .section-para1{
+    font-size: 1.3rem;
+    font-weight: bold;   
+}
+.img-container{
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+.section .img2{
+    display: inline-block;
+    width: 320px;
+    height: 240px;
+    border: 2px solid black;
+    margin-top: 1rem;
+    
+}
+.container3 .img3{
+    display: inline-block;
+    width: 320px;
+    height: 240px;
+    border: 2px solid black;
+    margin-top: 1rem;
+    
+
+}
+.container2 .section-para2{
+    font-size: 1.3rem;
+    font-weight: bold;
+    
+}
+.container3 .section-para3{
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+.section-common{
+    text-align: center;
+    padding: 1rem 2rem;
+}
+.over{
+    text-align: center;
+}
+
+/* paid css styling...---------------------------------------------------------- */
+
+.over4{
+    position: relative;
+}
+.over4::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 200px;
+    width: 10px;
+    background-color: #000;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+.over4 .clicked{
+    font-weight: bold;
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    font-size: 1.5rem;
+    padding: 0.5rem 0.8rem;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 1rem;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+.over4:hover::after{
+    opacity: 0.8;
+    width: 300px;
+
+}
+.over4:hover .clicked{
+    opacity: 1;
+    left: 47%;
+}
+
+.paid h1{
+    padding: 1rem;
+}
+.money{
+    display: flex;
+}
+.paid{
+    margin-bottom: 2rem;
+}
+.paid-container{
+    display: flex;
+    margin-top: 2rem;
+}
+.paid-container .gaming1,.gaming2,.gaming3,.gaming4{
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    
+}
+.paid-container .paid-head{
+    padding: 0.9rem 0.2rem;
+    font-size: 1.3rem;
+    width: 310px;
+}
+.paid4 .paid-head-4 {
+    padding: 0.9rem 0.2rem;
+    width: 305px;
+    font-size: 1.3rem;
+}     
+.paid1,.paid2,.paid3,.paid4{
+    width: 300px;
+    margin-left: 0.8rem;
+}
+.paid1 .li-ui, .paid2 .li-ui, .paid3 .li-ui, .paid4 .li-ui{
+    color: grey;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+.li-ui li{
+    margin-left:0.5rem ;
+    
+}
+.li-ui .li1{
+    border: 2px solid red;
+}
+.paid1 .amount ,.paid2 .amount,.paid3 .amount,.paid4 .amount{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.striked{
+    font-size: 1.3rem;
+    margin-left: 0.4rem;
+}
+
+
+.hurry{
+    padding: 0.3rem 0.6rem;
+    background-color: darkmagenta;
+}
+.design1{
+    background-color: black;
+    color: white;
+    height: 40vh;
+}
+.design1 .left-paid{
+    padding: 2rem;
+}
+.design1 .right-paid{
+    margin-top: 1rem;
+}
+.design1{
+    display: flex;
+}
+.design1 img{
+    width: 250px;
+    height: 200px;
+}
+.design1 .p1{
+font-size: 1.4rem;
+padding: 1rem 0rem;
+}
+.p2{
+    margin-left: 3rem;
+}
+.p3{
+
+    margin-left: 3rem;
+}
+.flexing{
+    display: flex;
+}
+.flexing i{
+    margin-right: 1rem;
+    margin-top: 1.7rem;
+}
+
+.bigger-flex{
+    display: flex;
+    padding: 1rem 2rem;
+}
+.design2 li{
+    list-style-type: circle;
+    line-height: 1.2rem;
+}
+.flex2{
+    margin-left: 2rem;
+}
+.design2{
+    border: 2px solid black;
+    width: 620px;
+    padding-left: 2rem;
+    margin: 3rem;
+    font-size: 1rem;
+}
+.design2 h1{
+    padding: 1rem 2rem;
+}
+
+.small2{
+    margin-top: 1rem;
+}
+.design3{
+    width: 650px;
+    padding-left: 1rem;
+    margin: 2rem;
+    font-size: 1rem;
+}
+.design4{
+    margin: 2.8rem;
+}
+.design4 .name{
+    margin-top: 1rem;
+    color: purple;
+    border-bottom: 2px solid purple;
+    width: 120px;
+}
+.design4 p{
+    color: grey;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.design4 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50rem;
+    margin-top: 1rem;
+    
+}
+.design4 .name-para{
+    color: black;
+    font-weight: 200;
+    width: 650px;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.designer-img{
+    display: flex;
+}
+.designer-img li{
+    list-style-type: none;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+.designer-img .li-design{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    
+}
+.outer-design{
+    display: flex;
+}
+.design11{
+    margin-top: 4rem;
+    margin-left: 2rem;
+    font-size: 1.7rem;
+    border: 2px solid black;
+    height: 600px;
+    padding: 1rem;
+}
+.design11 li{
+    list-style-type: none;
+    line-height: 2rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+.design12 img{
+    width: 500px;
+    height: 300px;
+    margin-top: 3rem;
+}
+.design11 i{
+    margin-right: 2rem;
+}
+.designer-img ul i{
+    margin-right: 1rem;
+}
+
+

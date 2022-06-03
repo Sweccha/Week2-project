@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Tiro+Gurmukhi&family=Zilla+Slab:ital,wght@0,400;1,500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Sign Up css styling....................................................................... */
+
+.img-bg{
+    background-image: url(./7524ea1d11e16cc33dd6b332ce88a341.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 81.5vh;
+    opacity: 1;
+}
+
+.sign-in img{
+    width: 500px;
+    height: 500px;
+    
+}
+.header-section nav h1{
+    background-color: rgba(0, 0, 0);
+    font-weight: bold;
+    height: 20vh;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 1rem;
+    letter-spacing: 0.1rem;
+    color: red;
+}
+.sign-in .content{
+    display: flex;
+}
+form{
+    width: 700px;
+}
+.sign-in form{
+    display: block;
+    margin: 6rem 2rem;
+}
+form input[type=text]{
+    margin-top: 0.2rem;
+    font-size: 1.2rem;
+    width: 300px;
+
+} 
+ form input[type=email]{
+    margin-top: 0.2rem;
+    font-size: 1.2rem;
+    width: 300px;
+}
+form input[type=number]{
+    margin-top: 0.2rem;
+    font-size: 1.2rem;
+    width: 300px;
+}
+form input[type=password]{
+    margin-top: 0.2rem;
+    font-size: 1.2rem;
+    width: 300px;
+}
+.gender h5{
+    margin-top: 0.2rem;
+    font-size: 1.3rem;
+    font-weight: 450;
+    
+} 
+form label{
+    font-size: 1.2rem;
+}
+
+
+ .sign-in .common-class{
+    margin-top: 0.5rem;
+}
+.sign-in .fill-form{
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    
+}
+.sign-in .right-container{
+    margin-left: 13rem;
+    
+}
+.sign-in .left-container{
+    margin-left: 6rem;
+}
+.sign-in form .fill{
+    display: block;
+    font-size: 2rem;
+    font-weight: 500;
+    position: relative;
+    bottom: 2rem;
+    letter-spacing: 0.1rem;
+    
+    
+}
+.sign-in .gender{
+    margin-left: 0.7rem;
+    margin-top: 0.3rem;
+}
+.gender .male-radio{
+    margin-right: 9rem;
+}
+.gender .female-radio{
+    margin-right: 9rem;
+}
+.gender .prefer-radio{
+    margin-right: 9rem;
+}
+form .left-container{
+    
+    width: 170px;
+    
+}
+
+.sign-in .common-btn{
+    padding: 0.4rem 7rem;
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+    margin-top: 2rem;
+    
+}
+.sign-in .submit-btn{
+    background-color: #fe2c54 ;
+    margin-right: 2rem;
+    margin-left: 0.8rem;
+}
+.sign-in .cancel-btn{
+    background-color: #00ff00;
+}
+ 
